@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velours [HoReCa] - Showroom for Exhibitions</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="shortcut icon"
+        href="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6624b0783f39ffabcde95332_fav-32.png"
+        type="image/x-icon">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class=".montserrat-font">
+    <div class="h-20 bg-transparent p-8 w-full flex items-center justify-between nav fixed top-0  left-0  z-[99]">
+        <div class="ml-2 blink mob-no cursor-pointer relative opacity-0 mt-4 tracking-tighter text-center">
+            <h4 class="text-[.92vw] text-white blend font-extralight "><span class="mr-2 hover:font-bold"> UA
+                </span><span class="hover:font-bold ">+38 067 718 3556</span></h4>
+            <p class=" text-xs text-zinc-400 blend">Sun 30 Jun. 19:52:51</p>
+        </div>
+        <div class="mr-2 blink opacity-0 cursor-pointer locate relative mt-4 tracking-tighter text-center">
+            <h4 class="text-[.9vw] blend text-white font-extralight hover:font-bold">49.51.24.7. 24.01.37.5</h4>
+            <p class="text-xs text-zinc-400 blend">53 Zamarsynivska Street</p>
+        </div>
+    </div>
+    <div class="logo text-black fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[99] "><svg
+            xmlns="http://www.w3.org/2000/svg" class="logo" width="14vw" height="14vw" viewBox="0 0 129 41" fill="none">
+            <path
+                d="M78.6467 40.2537L81.1095 34.9224H81.7795L84.2422 40.2537H83.5628L81.3265 35.2904H81.5624L79.3167 40.2537H78.6467ZM79.6847 38.8761L79.8828 38.3288H82.9212L83.1194 38.8761H79.6847Z"
+                fill="currentColor"></path>
+            <path
+                d="M75.8823 40.3104C75.3853 40.3104 74.9261 40.2286 74.5046 40.065C74.0831 39.8952 73.7183 39.6593 73.41 39.3573C73.1018 39.0554 72.8596 38.7 72.6835 38.2911C72.5136 37.8822 72.4287 37.4355 72.4287 36.9512C72.4287 36.4668 72.5136 36.0202 72.6835 35.6113C72.8596 35.2024 73.1018 34.847 73.41 34.545C73.7246 34.2431 74.0926 34.0103 74.5141 33.8468C74.9355 33.6769 75.3947 33.592 75.8917 33.592C76.3698 33.592 76.8196 33.6738 77.241 33.8373C77.6625 33.9946 78.0179 34.2336 78.3073 34.5544L77.8638 34.9979C77.5933 34.7211 77.2945 34.523 76.9674 34.4035C76.6403 34.2777 76.288 34.2148 75.9106 34.2148C75.5143 34.2148 75.1463 34.2839 74.8066 34.4223C74.4669 34.5544 74.1712 34.7463 73.9196 34.9979C73.668 35.2433 73.4698 35.5326 73.3251 35.866C73.1867 36.1932 73.1175 36.5549 73.1175 36.9512C73.1175 37.3475 73.1867 37.7123 73.3251 38.0457C73.4698 38.3729 73.668 38.6622 73.9196 38.9138C74.1712 39.1592 74.4669 39.351 74.8066 39.4894C75.1463 39.6215 75.5143 39.6876 75.9106 39.6876C76.288 39.6876 76.6403 39.6247 76.9674 39.4989C77.2945 39.3731 77.5933 39.1718 77.8638 38.895L78.3073 39.3385C78.0179 39.6593 77.6625 39.9015 77.241 40.065C76.8196 40.2286 76.3666 40.3104 75.8823 40.3104Z"
+                fill="currentColor"></path>
+            <path
+                d="M68.1504 37.272H71.0189V37.8287H68.1504V37.272ZM68.2636 39.6876H71.4624V40.2537H67.5842V34.9224H71.3492V35.4886H68.2636V39.6876Z"
+                fill="currentColor"></path>
+            <path
+                d="M60.8501 40.2537V33.6486H63.3223C63.8822 33.6486 64.3634 33.7398 64.766 33.9222C65.1686 34.0983 65.4768 34.3563 65.6907 34.6959C65.9109 35.0294 66.021 35.4351 66.021 35.9132C66.021 36.3787 65.9109 36.7813 65.6907 37.121C65.4768 37.4544 65.1686 37.7123 64.766 37.8947C64.3634 38.0709 63.8822 38.1589 63.3223 38.1589H61.237L61.5484 37.8381V40.2537H60.8501ZM65.3605 40.2537L63.662 37.857H64.4169L66.1248 40.2537H65.3605ZM61.5484 37.8947L61.237 37.5645H63.3034C63.964 37.5645 64.4641 37.4198 64.8038 37.1304C65.1497 36.8411 65.3227 36.4353 65.3227 35.9132C65.3227 35.3848 65.1497 34.9759 64.8038 34.6865C64.4641 34.3971 63.964 34.2525 63.3034 34.2525H61.237L61.5484 33.9222V37.8947Z"
+                fill="currentColor"></path>
+            <path
+                d="M56.4611 40.3103C55.9201 40.3103 55.4326 40.1939 54.9986 39.9612C54.5645 39.7221 54.2217 39.3982 53.9701 38.9893C53.7247 38.5741 53.6021 38.1054 53.6021 37.5833C53.6021 37.0612 53.7247 36.5957 53.9701 36.1868C54.2217 35.7779 54.5645 35.4539 54.9986 35.2149C55.4326 34.9758 55.9201 34.8563 56.4611 34.8563C57.0084 34.8563 57.4959 34.9758 57.9237 35.2149C58.3578 35.4539 58.6975 35.7779 58.9428 36.1868C59.1944 36.5957 59.3202 37.0612 59.3202 37.5833C59.3202 38.1054 59.1944 38.5741 58.9428 38.9893C58.6975 39.3982 58.3578 39.7221 57.9237 39.9612C57.4959 40.1939 57.0084 40.3103 56.4611 40.3103ZM56.4611 39.7253C56.8826 39.7253 57.2569 39.6341 57.584 39.4516C57.9111 39.2629 58.169 39.0081 58.3578 38.6873C58.5465 38.3602 58.6408 37.9922 58.6408 37.5833C58.6408 37.1744 58.5433 36.8096 58.3483 36.4887C58.1596 36.1679 57.9017 35.9163 57.5746 35.7339C57.2538 35.5451 56.8826 35.4508 56.4611 35.4508C56.046 35.4508 55.6717 35.5451 55.3383 35.7339C55.0111 35.9163 54.7532 36.1679 54.5645 36.4887C54.3758 36.8096 54.2814 37.1744 54.2814 37.5833C54.2814 37.9922 54.3758 38.3602 54.5645 38.6873C54.7532 39.0081 55.0111 39.2629 55.3383 39.4516C55.6717 39.6341 56.046 39.7253 56.4611 39.7253Z"
+                fill="currentColor"></path>
+            <path
+                d="M51.38 33.6486H52.0688V40.2537H51.38V33.6486ZM47.2471 40.2537H46.5488V33.6486H47.2471V40.2537ZM51.4461 37.2059H47.1716V36.5926H51.4461V37.2059Z"
+                fill="currentColor"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M33.0745 5.75867C28.3039 5.75867 24.4365 9.626 24.4365 14.3966V15.3564C24.4365 20.127 28.3039 23.9943 33.0745 23.9943C36.5664 23.9943 39.5745 21.9222 40.936 18.9405L38.7699 17.906C37.795 20.0803 35.6116 21.5949 33.0745 21.5949C29.7905 21.5949 27.0992 19.0574 26.8541 15.8362H39.2948C39.2948 15.8362 39.2948 15.8362 39.2948 15.8362H41.6993C41.708 15.6774 41.7124 15.5174 41.7124 15.3564V14.3966C41.7124 9.626 37.8451 5.75867 33.0745 5.75867ZM33.0745 8.15809C29.9554 8.15809 27.371 10.447 26.9093 13.4368H39.2396C38.7779 10.447 36.1935 8.15809 33.0745 8.15809Z"
+                fill="currentColor"></path>
+            <path
+                d="M116.336 23.9943C114.888 23.9943 113.519 23.7898 112.227 23.3808C110.936 22.949 109.922 22.415 109.188 21.7788L110.256 19.87C110.969 20.4153 111.882 20.8925 112.995 21.3016C114.109 21.6879 115.278 21.881 116.503 21.881C118.173 21.881 119.375 21.6197 120.11 21.097C120.845 20.5517 121.212 19.8359 121.212 18.9497C121.212 18.2907 121.001 17.7794 120.578 17.4158C120.177 17.0295 119.643 16.7455 118.974 16.5637C118.306 16.3592 117.56 16.1888 116.737 16.0524C115.913 15.9161 115.089 15.757 114.265 15.5752C113.463 15.3934 112.728 15.1321 112.06 14.7913C111.392 14.4277 110.846 13.9391 110.423 13.3256C110.023 12.7121 109.822 11.894 109.822 10.8715C109.822 9.89435 110.089 9.01949 110.624 8.24689C111.158 7.47429 111.938 6.87212 112.962 6.44037C114.009 5.9859 115.278 5.75867 116.77 5.75867C117.906 5.75867 119.041 5.91773 120.177 6.23586C121.313 6.53127 122.248 6.92893 122.983 7.42885L121.947 9.37171C121.168 8.82634 120.333 8.44004 119.442 8.21281C118.551 7.96285 117.661 7.83787 116.77 7.83787C115.189 7.83787 114.02 8.12191 113.263 8.69C112.528 9.23537 112.16 9.9398 112.16 10.8033C112.16 11.485 112.361 12.019 112.762 12.4053C113.185 12.7916 113.73 13.0984 114.398 13.3256C115.089 13.5301 115.835 13.7005 116.636 13.8369C117.46 13.9732 118.273 14.1436 119.075 14.3482C119.899 14.5299 120.645 14.7913 121.313 15.1321C122.003 15.4503 122.549 15.9161 122.949 16.5296C123.372 17.1204 123.584 17.9044 123.584 18.8815C123.584 19.9268 123.295 20.8357 122.716 21.6083C122.159 22.3582 121.335 22.949 120.244 23.3808C119.175 23.7898 117.872 23.9943 116.336 23.9943Z"
+                fill="currentColor"></path>
+            <path d="M46.5112 23.9943V6.10352e-05H48.9107V23.9943H46.5112Z" fill="currentColor"></path>
+            <path d="M91.6204 23.9943V5.75867H94.0198V23.9943H91.6204Z" fill="currentColor"></path>
+            <path d="M101.218 5.75863V23.9943H98.8186V5.75863H101.218Z" fill="currentColor"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M62.3474 5.75867C57.5768 5.75867 53.7095 9.626 53.7095 14.3966V15.3564C53.7095 20.127 57.5768 23.9943 62.3474 23.9943H63.3072C68.0778 23.9943 71.9451 20.127 71.9451 15.3564V14.3966C71.9451 9.626 68.0778 5.75867 63.3072 5.75867H62.3474ZM62.3474 8.15809C58.902 8.15809 56.1089 10.9512 56.1089 14.3966V15.3564C56.1089 18.8018 58.902 21.5949 62.3474 21.5949H63.3072C66.7526 21.5949 69.5457 18.8018 69.5457 15.3564V14.3966C69.5457 10.9512 66.7526 8.15809 63.3072 8.15809H62.3474Z"
+                fill="currentColor"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M79.1433 5.75867H76.7439V15.9222C76.7439 20.3803 80.3579 23.9943 84.816 23.9943C89.6923 23.9943 93.4552 19.7038 92.8191 14.8692L91.6203 5.75867H91.6203V15.3564C91.6203 18.8018 88.8272 21.5949 85.3818 21.5949C81.9364 21.5949 79.1433 18.8018 79.1433 15.3563V5.75867Z"
+                fill="currentColor"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.1564 23.9943H13.7975L24.954 0H22.3141L12.477 21.1568L2.63984 0H0L11.1564 23.9943Z"
+                fill="currentColor"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M107.457 5.77814C102.859 6.09458 99.408 10.238 100.019 14.8839L101.218 23.9944L101.218 14.3967C101.218 10.9513 104.011 8.15821 107.457 8.15821L107.457 5.77814Z"
+                fill="currentColor"></path>
+        </svg>
+    </div>
+    <div
+        class="flex blink opacity-0 fixed z-[99] top-[88%] left-[50%] translate-x-[-50%] items-center justify-center p-1 ">
+        <div class="flex bg-black text-white rounded-lg overflow-hidden shadow-lg">
+            <div class="flex items-center w-24 h-16 rounded-md p-1 ">
+                <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6624b9bb9bf16dc9d0106de2_download-img-04.webp"
+                    alt="Brochure Image" class="rounded-md h-full w-full object-cover">
+            </div>
+            <div class="flex tracking-tight mx-2  flex-col justify-center p-1">
+                <p class="text-[.8vw] font-thin">Download our brochure on <br> services in the HoReCa industry</p>
+            </div>
+            <div class="flex items-center x pr-1">
+                <button
+                    class="bg-white cursor-pointer  hover:bg-red-500 text-[.8vw] font-thin text-black px-8 py-4  rounded-md shadow-md hover:bg-gray-200 transition duration-300">
+                    Download PDF
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="main montserrat-font">
+        <div  class="h-screen page1  w-full relative bg-black  text-white ">
+            <div class="h-screen w-full"><img class="hotel-img scale-0 rounded-none  h-screen w-full object-cover"
+                    src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/66267f01781250e3c4f8ed19_hero-01.webp"
+                    alt="">
+            </div>
+            <div
+                class="absolute h-full bg-black overlay bg-opacity-[0]  flex items-center justify-center w-full  z-[9999] top-0 left-0">
+                <h2 data-scroll data-scroll-speed="2"
+                    class="  opacity-0   font-light blink text-6xl uppercase text-white ">
+                    hotel</h2>
+            </div>
+
+        </div>
+
+        <div
+            class="loader uppercase tracking-loose h-screen bg-white w-full absolute flex flex-col items-center justify-center gap-[25vw] text-black top-0 left-0">
+            <p class="text-sm year">since 2005</p>
+
+            <div class=" flex  flex-shrink-0 gap-10">
+                <div class="text-sm year">loading</div>
+                <div class="text-sm year w-10 timer">0 </div>
+            </div>
+        </div>
+
+        <div  class="h-screen page2 section relative  w-full flex items-center justify-center">
+            <img class="h-full w-full object-cover"
+                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/66267f00e43626f944ce0076_hero-02-p-2000.webp"
+                alt="">
+            <div class="absolute h-full overlay bg-black bg-opacity-[0] flex items-center justify-center w-full bg-red-transparent z-[999] top-0 left-0">
+                <h2 data-scroll data-scroll-speed="2"
+                    class="  opacity-1 font-light blink text-6xl uppercase text-white ">
+                    restraunt</h2>
+            </div>
+        </div>
+
+        <div class="h-screen page3 section relative  w-full flex items-center justify-center">
+            <img class="h-full w-full object-cover"
+                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/66267f011d36d94902bbbcd3_hero-03-p-2000.webp"
+                alt="">
+            <div
+                class="absolute h-full overlay bg-black bg-opacity-[0] flex items-center justify-center w-full bg-red-transparent z-[9999] top-0 left-0">
+                <h2 data-scroll data-scroll-speed="2"
+                    class="  opacity-1 font-light blink text-6xl uppercase text-white ">
+                    catering</h2>
+            </div>
+        </div>
+
+        <div class="h-screen page4 section relative  w-full flex items-center justify-center">
+            <img class="h-full w-full object-cover"
+                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/66267f0015a49ebd0cb05e50_hero-04-p-2000.webp"
+                alt="">
+            <div
+                class="absolute h-full overlay bg-black bg-opacity-[0] flex items-center justify-center w-full bg-red-transparent z-[9999] top-0 left-0">
+                <h2 data-scroll data-scroll-speed="2"
+                    class="  opacity-1 font-light blink text-6xl uppercase text-white ">
+                    +automative</h2>
+            </div>
+        </div>
+
+        <div  class="page5 h-screen  w-full bg-white px-10 pt-40">
+
+            <div class="text-[4.3vw] font-thin ">
+                <h1 class=" text-center mt-10 ml-72">FULL RESPONSIBILITY FROM </h1><br>
+                <h1 class="text-start">PROJECT TO IMPLEMENTATION</h1>
+            </div>
+           
+            <div class=" mt-20 w-full flex items-start justify-between">
+                <div class="w-2/4   flex items-start justify-between ">
+                    <p class="text-sm font-light">More about us</p>
+                    <div class=" relative flex w-72 flex-col items-center gap-10 ">
+                        <p class="text-[.9vw] tracking-tight">The textile production Velours HoReCa was founded in Lviv
+                            in 2005. <span class="text-zinc-400"> Our activity is focused on professionally outfitting
+                                the
+                                interiors of hotels, restaurants, cafes, and bars with textile products. </span></p>
+                        <div class="flex gap-10 scanner  insta items-center">
+                            <div class="relative h-[5vw] w-[5vw]  bg-transparent bar"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="5vw" height="5vw" class=""
+                                    viewBox="0 0 100 100" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M88.3333 100H99.1667H100V99.1667V88.3333H99.1667V99.1667H88.3333V100ZM99.1667 11.6667H100V0.833333V0H99.1667H88.3333V0.833333H99.1667V11.6667ZM11.6667 100V99.1667H0.833333V88.3333H0L0 99.1667V100H0.833333H11.6667ZM0 11.6667H0.833333V0.833333H11.6667V0H0.833333H0V0.833333L0 11.6667Z"
+                                        fill="black"></path>
+                                </svg>
+                                <div class="absolute top-0 left-0 h-full w-full flex items-center justify-center"> <img
+                                        class=""
+                                        src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ee86a7a7fd8fd9b2fae9_insta-main-img.svg"
+                                        alt=""></div>
+                            </div>
+                            <h5 class="text-sm font-light">More in ours <br><span class="flex items-center gap-1"><span>
+                                        Instagram </span> <svg xmlns="http://www.w3.org/2000/svg" class="h-[1vw]"
+                                        viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z">
+                                        </path>
+                                    </svg></span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-72 mr-32 text-sm font-light">
+                    <div class="border-b-[.1vw] border-dashed border-opacity-[.5] border-black">
+                        <h4 class="pb-4  ">With extensive experience in the Horeca sector - 18 years <span
+                                class="opacity-[0.6]"> [as of 2024] </span></h4>
+                    </div>
+                    <div class="border-b-[.1vw] border-opacity-[.5] border-dashed border-black">
+                        <h4 class="py-4 ">We offer both warranty and post-warranty servicing</h4>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="page6 relative h-screen w-full bg-white px-10 pt-40 ">
+            <div class="flex justify-between h-full pb-10 pr-10 w-full ">
+                <div class="flex blur-text flex-col justify-between  w-[20vw]">
+                    <h1 class="text-4xl  font-light tracking-tight leading-tighter">IDEAL TEXTILES FOR A COZY HOTEL
+                        AMBIANCE</h1>
+                    <div class="flex gap-6 font-hvr  ml-40 items-center justify-end ">
+                        <h4 class="mb-8 text-md ml-10 mt-6 font-light">PREV.</h4>
+                        <div class=" relative  overflow-hidden arrow h-[2.5vw] w-[2.5vw]  ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="font-light" width="100%" height="100%"
+                                viewBox="0 0 40 40" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M31.9998 40H39H40V39V32.0001H39V39H31.9998V40ZM39 8.00008H40V1V0H39H31.9998V1H39V8.00008ZM7.99983 40V39H1V32.0001H0V39V40H1H7.99983ZM0 8.00008H1V1H7.99983L7.99983 0H1H0V1V8.00008Z"
+                                    fill="black"></path>
+                            </svg>
+
+                            <div class="absolute top-0 left-5 h-full prev-arrow flex items-center  w-full "> <img
+                                    class="scale-[1.8] "
+                                    src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662a4769f1aff9b80a89e52c_arrow-prev.svg"
+                                    alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-[27vw] h-full overflow-hidden    rounded-lg flex " id="image-container">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7ea9c639eb73eac5e4_slider-01-03-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662a45b943d2e1892a8fff8e_slider-01-04-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7e1e8805c27f42242f_slider-01-01-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7fa9c639eb73eac5fc_slider-01-02-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7ea9c639eb73eac5e4_slider-01-03-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662a45b943d2e1892a8fff8e_slider-01-04-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7e1e8805c27f42242f_slider-01-01-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7fa9c639eb73eac5fc_slider-01-02-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7ea9c639eb73eac5e4_slider-01-03-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662a45b943d2e1892a8fff8e_slider-01-04-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7e1e8805c27f42242f_slider-01-01-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7fa9c639eb73eac5fc_slider-01-02-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7ea9c639eb73eac5e4_slider-01-03-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662a45b943d2e1892a8fff8e_slider-01-04-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7e1e8805c27f42242f_slider-01-01-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ec7fa9c639eb73eac5fc_slider-01-02-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+
+                </div>
+                <div class="flex flex-col justify-between   w-[22vw]">
+                    <div class="flex gap-6 arrow font-hvr items-center justify-start ">
+                        <div class=" relative overflow-hidden  h-[2.5vw] w-[2.5vw]   ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="font-light" width="100%" height="100%"
+                                viewBox="0 0 40 40" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M31.9998 40H39H40V39V32.0001H39V39H31.9998V40ZM39 8.00008H40V1V0H39H31.9998V1H39V8.00008ZM7.99983 40V39H1V32.0001H0V39V40H1H7.99983ZM0 8.00008H1V1H7.99983L7.99983 0H1H0V1V8.00008Z"
+                                    fill="black"></path>
+                            </svg>
+
+                            <div class="absolute top-0 right-5 next-arrow  h-full flex items-center  w-full "> <img
+                                    class="scale-[1.8] "
+                                    src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662a4848a9bf455bf05d9d61_arrow-next.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <h4 class="mb-8 text-md  mt-7 font-light">NEXT</h4>
+
+
+                    </div>
+                    <div class="flex gap-10 scanner  items-center">
+                        <div class="relative h-[5vw] w-[5vw] overflow-hidden bg-transparent bar"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="5vw" height="5vw" class=""
+                                viewBox="0 0 100 100" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M88.3333 100H99.1667H100V99.1667V88.3333H99.1667V99.1667H88.3333V100ZM99.1667 11.6667H100V0.833333V0H99.1667H88.3333V0.833333H99.1667V11.6667ZM11.6667 100V99.1667H0.833333V88.3333H0L0 99.1667V100H0.833333H11.6667ZM0 11.6667H0.833333V0.833333H11.6667V0H0.833333H0V0.833333L0 11.6667Z"
+                                    fill="black"></path>
+                            </svg>
+                            <div class="absolute top-0 left-0 h-full w-full flex items-center justify-center"> <img
+                                    class=""
+                                    src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ee86a7a7fd8fd9b2fae9_insta-main-img.svg"
+                                    alt=""></div>
+                        </div>
+                        <h5 class="text-sm font-light">More in ours <br><span class="flex items-center gap-1"><span>
+                                    Instagram </span> <svg xmlns="http://www.w3.org/2000/svg" class="h-[1vw]"
+                                    viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z">
+                                    </path>
+                                </svg></span>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="page7 mb-20 relative w-full bg-white p-10 ">
+            <div class="flex rotatediv flex-col ">
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black transform rotate-z-12 ">CURTAINS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black">BLACKOUT CURTAINS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black">SHEERS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black">ANTI-VANDAL SHEERS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black">NO-NOISE CURTAIN RODS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black ">DECORATIVE PILLOWS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black ">TABLE RUNNERS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black ">TABLECLOTHS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black ">NAPKINS</div>
+            </div>
+            <div class="w-[20%] absolute top-[10%] right-[10%]">
+                <p class="text-sm font-light tracking-tighter leading-tight">Create an atmosphere of comfort and
+                    coziness in your hotel with our diverse range of high-quality textiles. Our assortment includes
+                    curtains, sheers, decorative pillows, bed runners, and much more to meet all your room décor needs.
+                </p>
+            </div>
+        </div>
+
+        <div class="page8 h-screen  w-full pt-24   pb-6 px-10">
+            <div class="h-full w-full relative overflow-hidden bg-red-600 rounded-lg">
+                <video muted autoplay class="h-full w-full object-cover"
+                    src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d%2F6649e6d401492fd39ce57892_IMG_1559-transcode.webm"></video>
+                <div class="absolute h-full w-full flex items-center justify-end p-10 top-0 left-0 ">
+                    <div class="h-[28vw] w-80 relative rounded-md bg-white p-2">
+                        <div class="h-[85%] w-full flex flex-shrink-0  overflow-hidden  rounded-md " id="image-container">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9663c0b2b57483d6e6d8_auto-01-p-500.webp"
+                                alt="">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9663a1c3348a49a57dc1_auto-02-p-500.webp" alt="">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b966480bf43e8180c1fe2_auto-04-p-500.webp"                                alt="">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9664b6b690be8937254a_auto-03-p-500.webp"
+                                alt="">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9663c0b2b57483d6e6d8_auto-01-p-500.webp"
+                                alt="">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9663a1c3348a49a57dc1_auto-02-p-500.webp" alt="">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b966480bf43e8180c1fe2_auto-04-p-500.webp"                                alt="">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9664b6b690be8937254a_auto-03-p-500.webp"
+                                alt="">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9663c0b2b57483d6e6d8_auto-01-p-500.webp"
+                                alt="">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9663a1c3348a49a57dc1_auto-02-p-500.webp" alt="">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b966480bf43e8180c1fe2_auto-04-p-500.webp"                                alt="">
+                            <img class="h-full w-full object-cover"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9664b6b690be8937254a_auto-03-p-500.webp"
+                                alt="">
+                        </div>
+                        <div class="flex items-center h-[20%] w-full p-6 justify-between w-full">
+                            <div class=" relative  overflow-hidden  arrow h-[2.5vw] w-[2.5vw]  ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="font-light" width="100%" height="100%"
+                                    viewBox="0 0 40 40" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M31.9998 40H39H40V39V32.0001H39V39H31.9998V40ZM39 8.00008H40V1V0H39H31.9998V1H39V8.00008ZM7.99983 40V39H1V32.0001H0V39V40H1H7.99983ZM0 8.00008H1V1H7.99983L7.99983 0H1H0V1V8.00008Z"
+                                        fill="black"></path>
+                                </svg>
+
+                                <div class="absolute top-0 left-5 h-full prev-arrow flex items-center  w-full "> <img
+                                        class="scale-[1.8] "
+                                        src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662a4769f1aff9b80a89e52c_arrow-prev.svg"
+                                        alt="">
+                                </div>
+                            </div>
+
+
+                            <div class="flex items-center mb-5 justify-center">
+                                <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/663bd2dc28d47d07239c35c2_velours-horeca.svg"
+                                    alt="">
+                            </div>
+                            <div class="flex gap-6 arrow  font-hvr items-center justify-start ">
+                                <div class=" relative overflow-hidden  h-[2.5vw] w-[2.5vw]   ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="font-light" width="100%"
+                                        height="100%" viewBox="0 0 40 40" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M31.9998 40H39H40V39V32.0001H39V39H31.9998V40ZM39 8.00008H40V1V0H39H31.9998V1H39V8.00008ZM7.99983 40V39H1V32.0001H0V39V40H1H7.99983ZM0 8.00008H1V1H7.99983L7.99983 0H1H0V1V8.00008Z"
+                                            fill="black"></path>
+                                    </svg>
+
+                                    <div class="absolute top-0 right-5 next-arrow  h-full flex items-center  w-full ">
+                                        <img class="scale-[1.8] "
+                                            src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662a4848a9bf455bf05d9d61_arrow-next.svg"
+                                            alt="">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="page9 flex items-start justify-center w-full h-screen bg-white">
+            <div class="flex h-full w-full px-10 ">
+                <div class="w-[40vw] flex flex-col  justify-between p-4">
+                    <div class="w-full flex blur-text justify-start">
+                        <h1 class="text-3xl w-full font-light leading-tight mb-4">AUTOMATED TEXTILE MANAGEMENT</h1>
+                    </div>
+                    <div class="w-full flex justify-end">
+                        <div class=" flex items-center h-[28vw] w-[18vw] rounded-lg  bg-black justify-center  ">
+                            <img class="h-[90%] w-[50%]"
+                                src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b5a9bf1e1110165fff749_pult.webp"
+                                alt="Remote Control" class="object-cover">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="w-[30vw] flex flex-col justify-between pt-1 p-20">
+                    <p class="text-black mb-4 tracking-tight text-sm">
+                        Creating comfort and efficiency: <span class="opacity-[.5]"> automated control of blinds,
+                            curtains, and sheers opens up new possibilities for hotels and restaurants striving to
+                            create a unique atmosphere for their guests.</span> This technology allows easy control of
+                        lighting and privacy, ensuring comfortable conditions throughout the day.
+                    </p>
+                    <div class="flex items-center mb-4">
+                        <div class="flex gap-10 scanner  items-center">
+                            <div class="relative h-[5vw] w-[5vw] overflow-hidden bg-transparent bar"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="5vw" height="5vw" class=""
+                                    viewBox="0 0 100 100" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M88.3333 100H99.1667H100V99.1667V88.3333H99.1667V99.1667H88.3333V100ZM99.1667 11.6667H100V0.833333V0H99.1667H88.3333V0.833333H99.1667V11.6667ZM11.6667 100V99.1667H0.833333V88.3333H0L0 99.1667V100H0.833333H11.6667ZM0 11.6667H0.833333V0.833333H11.6667V0H0.833333H0V0.833333L0 11.6667Z"
+                                        fill="black"></path>
+                                </svg>
+                                <div class="absolute top-0 left-0 h-full w-full flex items-center justify-center"> <img
+                                        class=""
+                                        src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ee86a7a7fd8fd9b2fae9_insta-main-img.svg"
+                                        alt=""></div>
+                            </div>
+                            <h5 class="text-sm font-light">More in ours <br><span class="flex items-center gap-1"><span>
+                                        Instagram </span> <svg xmlns="http://www.w3.org/2000/svg" class="h-[1vw]"
+                                        viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z">
+                                        </path>
+                                    </svg></span>
+                            </h5>
+                        </div>
+                    </div>
+                    <ul class="text-black  space-y-2">
+                        <li class="border-b text-sm border-dashed border-opacity-[.5] border-black py-2">Lighting
+                            control through blinds</li>
+                        <li class="border-b text-sm border-dashed border-opacity-[.5] border-black py-2">Scheduling the
+                            opening/closing of curtains</li>
+                        <li class="border-b text-sm border-dashed border-opacity-[.5] border-black py-2">Programmed
+                            opening of sheers for privacy</li>
+                        <li class="border-b text-sm border-dashed border-opacity-[.5] border-black py-2">Data collection
+                            on energy consumption</li>
+                        <li class="border-b text-sm border-dashed border-opacity-[.5] border-black py-2">Integration
+                            with smart home systems</li>
+                    </ul>
+                </div>
+                <p class=" p-20 pt-1 w-[30vw] px-10 text-black mb-4 tracking-tight text-sm">
+                    <span class="opacity-[.5]"> Programming for efficiency: automated control allows scheduling the
+                        opening and closing of textile products according to sleep schedules.</span> This ensures
+                    optimal energy usage and saves time and effort for staff,<span class="opacity-[.5]"> allowing them
+                        to focus on providing high-quality service to their guests.</span>
+                </p>
+
+            </div>
+        </div>
+
+        <div class="page10 h-screen w-full flex items-center justify-center">
+            <div class="flex gap-6 items-center">
+                <h1 class="text-[20vw] w-60 warnyear text-semibold">6</h1>
+                <div class="w-60  flex-shrink-0">
+                    <p class="mt-20">Warranty service <br>from 3 to 6 years</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="page11 relative h-screen w-full bg-white px-10 pt-40 ">
+            <div class="flex justify-between h-full pb-10 pr-10 w-full ">
+                <div class="flex blur-text flex-col justify-between  w-[20vw]">
+                    <h1 class="text-4xl  font-light tracking-tight leading-tighter">MODERN TEXTILES FOR RESTAURANTS</h1>
+                    <div class="flex gap-6 font-hvr  ml-40 items-center justify-end ">
+                        <h4 class="mb-8 text-md ml-10 mt-6 font-light">PREV.</h4>
+                        <div class=" relative  overflow-hidden arrow h-[2.5vw] w-[2.5vw]  ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="font-light" width="100%" height="100%"
+                                viewBox="0 0 40 40" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M31.9998 40H39H40V39V32.0001H39V39H31.9998V40ZM39 8.00008H40V1V0H39H31.9998V1H39V8.00008ZM7.99983 40V39H1V32.0001H0V39V40H1H7.99983ZM0 8.00008H1V1H7.99983L7.99983 0H1H0V1V8.00008Z"
+                                    fill="black"></path>
+                            </svg>
+
+                            <div class="absolute top-0 left-5 h-full prev-arrow flex items-center  w-full "> <img
+                                    class="scale-[1.8] "
+                                    src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662a4769f1aff9b80a89e52c_arrow-prev.svg"
+                                    alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-[27vw] h-full overflow-hidden    rounded-lg flex " id="image-container">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e759b6eb16c6b0bf81b_rest-01-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7554c9ec07c171b655_rest-02-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7567b34a4afb5dd043_rest-03-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e75c7d322205fd41b05_rest-04-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7b0b17613e62d61e23_rest-05-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e759b6eb16c6b0bf81b_rest-01-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7554c9ec07c171b655_rest-02-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7567b34a4afb5dd043_rest-03-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e75c7d322205fd41b05_rest-04-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7b0b17613e62d61e23_rest-05-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e759b6eb16c6b0bf81b_rest-01-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7554c9ec07c171b655_rest-02-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7567b34a4afb5dd043_rest-03-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e75c7d322205fd41b05_rest-04-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7b0b17613e62d61e23_rest-05-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e759b6eb16c6b0bf81b_rest-01-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7554c9ec07c171b655_rest-02-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7567b34a4afb5dd043_rest-03-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e75c7d322205fd41b05_rest-04-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7b0b17613e62d61e23_rest-05-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e759b6eb16c6b0bf81b_rest-01-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7554c9ec07c171b655_rest-02-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7567b34a4afb5dd043_rest-03-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e75c7d322205fd41b05_rest-04-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662b9e7b0b17613e62d61e23_rest-05-p-500.webp"
+                        alt="Textiles" class="object-cover flex-shrink-0  w-full h-full">
+
+                    
+                </div>
+                <div class="flex flex-col justify-between   w-[22vw]">
+                    <div class="flex gap-6 arrow font-hvr items-center justify-start ">
+                        <div class=" relative overflow-hidden  h-[2.5vw] w-[2.5vw]   ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="font-light" width="100%" height="100%"
+                                viewBox="0 0 40 40" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M31.9998 40H39H40V39V32.0001H39V39H31.9998V40ZM39 8.00008H40V1V0H39H31.9998V1H39V8.00008ZM7.99983 40V39H1V32.0001H0V39V40H1H7.99983ZM0 8.00008H1V1H7.99983L7.99983 0H1H0V1V8.00008Z"
+                                    fill="black"></path>
+                            </svg>
+
+                            <div class="absolute top-0 right-5 next-arrow  h-full flex items-center  w-full "> <img
+                                    class="scale-[1.8] "
+                                    src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662a4848a9bf455bf05d9d61_arrow-next.svg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <h4 class="mb-8 text-md  mt-7 font-light">NEXT</h4>
+
+
+                    </div>
+                    <div class="flex gap-10 scanner  items-center">
+                        <div class="relative h-[5vw] w-[5vw] overflow-hidden bg-transparent bar"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="5vw" height="5vw" class=""
+                                viewBox="0 0 100 100" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M88.3333 100H99.1667H100V99.1667V88.3333H99.1667V99.1667H88.3333V100ZM99.1667 11.6667H100V0.833333V0H99.1667H88.3333V0.833333H99.1667V11.6667ZM11.6667 100V99.1667H0.833333V88.3333H0L0 99.1667V100H0.833333H11.6667ZM0 11.6667H0.833333V0.833333H11.6667V0H0.833333H0V0.833333L0 11.6667Z"
+                                    fill="black"></path>
+                            </svg>
+                            <div class="absolute top-0 left-0 h-full w-full flex items-center justify-center"> <img
+                                    class=""
+                                    src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/6629ee86a7a7fd8fd9b2fae9_insta-main-img.svg"
+                                    alt=""></div>
+                        </div>
+                        <h5 class="text-sm font-light">More in ours <br><span class="flex items-center gap-1"><span>
+                                    Instagram </span> <svg xmlns="http://www.w3.org/2000/svg" class="h-[1vw]"
+                                    viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z">
+                                    </path>
+                                </svg></span>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="page12 mb-20 relative w-full bg-white p-10 ">
+            <div class="flex rotatediv flex-col ">
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black transform rotate-z-12 ">CURTAINS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black">SHEERS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black ">SUNSHADES</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black ">WOODEN BLINDS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black ">TABLECLOTHS</div>
+                <div class="text-8xl origin-top-left rotating-text tracking-tight font-light text-black ">NAPKINS</div>
+            </div>
+            <div class="w-[20%] absolute top-[10%] right-[10%]">
+                <p class="text-sm font-light tracking-tighter leading-tight">ransform your restaurant into the perfect place for relaxation and enjoyment <span class="text-zinc-400"> with our wide selection of high-quality textiles.  Our range includes curtains, tablecloths, sheers, napkins, and much more </span> to create a stylish and cozy environment for your establishment.</p>
+            </div>
+        </div>
+
+        <div class="page13 min-h-screen pt-20 bg-white flex items-center justify-between w-full  p-10">
+            <div class="h-full flex items-start justify-between w-[50%]">
+                <p class="text-sm font-light text-black w-32">Become our next client
+                    right now!</p>
+                <div class="h-96 w-72 image-div overflow-hidden rounded-md bg-red-600 mx-32">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d1ba1cb3e06695e018255_works-01.webp" alt="" id="default-image" class="active">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d1ba1cb3e06695e018255_works-01.webp" alt="" id="apartel-image" >
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d17f1a6adffdfb4a35e39_works-02.webp" alt="" id="bank-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d17f1f7bad2fd6211fa3f_works-03.webp" alt="" id="grand-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d17f2a46ae80c0fc37f11_works-04.webp" alt="" id="glibivka-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d17f1a5fd67fafdc45011_works-05.webp" alt="" id="rafael-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d17f229d45f08ff5883b1_works-06.webp" alt="" id="lh-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d17f139d25f6f2d00f0d0_works-07.webp" alt="" id="status-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d17f17546ec56d9afa077_works-08.webp" alt="" id="swiss-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d17f1cb41b244d66d84b6_works-09.webp" alt="" id="sandal-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d1ba1a46ae80c0fc6a6e9_works-10.webp" alt="" id="euro-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d1ba1f7bad2fd62152c66_works-11.webp" alt="" id="sonata-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d1ba1a5fd67fafdc76bf5_works-12.webp" alt="" id="bukovel-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d1ba17a966fa325f2cc04_works-13.webp" alt="" id="panoram-image">
+                    
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d1ba26faca7472de9e6db_works-14.webp" alt="" id="svityaz-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d1ba1cf62638e995ebdfb_works-15.webp" alt="" id="kyivska-image">
+                    <img src="https://assets-global.website-files.com/6613fb0aff6a7761bf9a817d/662d1ba1a5fd67fafdc76c0f_works-16.webp" alt="" id="play-image" >
+                </div>
+            </div>
+            <div class="w-[50%] min-h-screen mt-20 pt-20">
+                <p class="text-sm font-light text-zinc-400 mb-6">They have chosen us:</p>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="apartel-image">APARTEL</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="bank-image">BANK HOTEL</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="grand-image">GRAND HOTEL</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="glibivka-image">GLІBІVKA FAMILY PARK</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="rafael-image">RAFAEL HOTEL</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="panoram-image">PANORAMA HOTEL</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="lh-image">LH HOTEL & SPA</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="status-image">STATUS HOTEL</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="bukovel-image">BUKOVEL</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="swiss-image">SWISS HOTEL</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="sandal-image">SANDAL HOTEL</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="euro-image">EUROHOTEL HOTEL</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="sonata-image">SONATA HOTEL</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="svityaz-image">SVITYAZ RESORT</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="kyivska-image">KYIVSKA RUS</h1>
+                <h1 class="text-5xl text-black font-normal opacity-[.6] " data-image-id="play-image">PLAY KARPATY</h1>
+            </div>
+        </div>
+        <div
+            class="footer min-h-screen flex flex-col items-center justify-between w-full  pt-[30vh] overflow-hidden">
+
+            <div class="h-full w-full  bg-white">
+                <h1 class="text-[20vw] zoom  font-normal uppercase text-center leading-none tracking-[1.9vw] ">horeca
+                </h1>
+                <h4 class=" font-medium zoom uppercase text-center mt-4  leading-tight tracking-[2.3vw] text-[2vw]">
+                    Velours</h4>
+            </div>
+            <div class="h-[55vh] text-black p-10 flex flex-col justify-end w-full ">
+                <div class="h-24 border-b border-dashed border-zinc-400 w-full flex items-center justify-between">
+
+                    <div class="flex items-center justify-between w-[50%]">
+
+                        <div class="mr-2 blink   relative mt-4 tracking-tighter text-center">
+                            <h4 class="text-[.9vw]  font-normal hover:font-bold"> Full responsibility from
+                                <br>project to implementation.
+                            </h4>
+                        </div>
+                        <div class="mr-2 blink  cursor-pointer locate relative mt-4 tracking-tighter text-center">
+                            <h4 class="text-[.9vw]  font-normal hover:font-bold">49.51.24.7. 24.01.37.5
+                                <br>53 Zamarsynivska Street
+
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="flex items-center w-full justify-center">
+                        <div class="ml-2 blink mob-no cursor-pointer relative  tracking-tighter text-center">
+                            <h4 class="text-[.92vw] text-black text-center font-normal hover:font-bold ">  +38 067 718 3556</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="h-6  w-full flex items-center justify-between">
+
+                    <div class="flex items-center justify-between w-[50%]">
+
+                        <div class="mr-2 blink   relative mt-4 tracking-tighter text-center">
+                            <p class="text-xs text-zinc-400  font-normal "> © 2024
+                            </p>
+                        </div>
+                        <div class="mr-2 blink   relative mt-4 tracking-tighter text-center">
+                            <p class="text-xs text-zinc-400  font-normal "> 
+                                [49.51.24.7 . 24.01.37.5]
+                            </p>
+                        </div>
+                        
+                    </div>
+                    <div class="flex items-center w-full justify-center">
+                        <div class="mr-2 blink   relative mt-4 tracking-tighter text-center">
+                            <p class="text-xs text-zinc-400  font-normal "> 
+                                
+nikitaloginov.io
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- GSAP ScrollTrigger CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
