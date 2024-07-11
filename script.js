@@ -169,16 +169,16 @@ mobNo.addEventListener("mouseleave", () => {
 page1()
 
 function section() {
-  gsap.to(".page1 .overlay", {
-    backgroundColor: "rgba(0, 0, 0, 0.7)",
-    scrollTrigger: {
-      scroller: ".main",
-      trigger: ".page1",
-      start: "top 0%",
-      end: "top -40%",
-      scrub: true,
-    }
-  })
+  // gsap.to(".page1 .overlay", {
+  //   backgroundColor: "rgba(0, 0, 0, 0.7)",
+  //   scrollTrigger: {
+  //     scroller: ".main",
+  //     trigger: ".page1",
+  //     start: "top 0%",
+  //     end: "top -40%",
+  //     scrub: true,
+  //   }
+  // })
   gsap.from(".page2 .overlay", {
     backgroundColor: "rgba(0, 0, 0, 0.7)",
     scrollTrigger: {
@@ -209,41 +209,6 @@ function section() {
       scrub: true,
     }
   })
-  gsap.to(".page2 .overlay", {
-    backgroundColor: "rgba(0, 0, 0, 0.7)",
-    scrollTrigger: {
-      scroller: ".main",
-      trigger: ".page2",
-      start: "top 0%",
-      end: "top -40%",
-      scrub: true,
-    }
-  })
-  gsap.to(".page3 .overlay", {
-    backgroundColor: "rgba(0, 0, 0, 0.7)",
-    scrollTrigger: {
-      scroller: ".main",
-      trigger: ".page3",
-      start: "top 0%",
-      end: "top -40%",
-      scrub: true,
-    }
-  })
-  gsap.to(".page4 .overlay", {
-    backgroundColor: "rgba(0, 0, 0, 0.7)",
-    scrollTrigger: {
-      scroller: ".main",
-      trigger: ".page4",
-      start: "top 0%",
-      end: "top -40%",
-      
-      scrub: true,
-      onComplete: () => {
-        alert("hlw")
-      }
-    }
-  })
-
 
 
   gsap.to(".page1", {
@@ -499,6 +464,7 @@ function blurText() {
 
 }
 blurText()
+
 function page9(){
   const textContainers = document.querySelectorAll('.page9 h1');
 
@@ -598,7 +564,6 @@ function page11(){
 
 }
 page11()
-
 
 
 function rotatediv(){
@@ -717,6 +682,7 @@ function footer(){
   document.querySelectorAll('.page13 h1').forEach((h1, index) => {
     gsap.to(h1, {
       opacity:"1",
+      fontWeight:"600",
       scrollTrigger: {
         trigger: h1,
         start: "top 60%",
@@ -736,7 +702,7 @@ function footer(){
         },
         onLeave: () => {
           // Reset opacity to 0.7
-          gsap.to(h1, { opacity: 0.7, duration: 0.5 });
+          gsap.to(h1, { opacity: 0.7,fontWeight:"300", duration: 0.5 });
   
           // Hide the corresponding image
           const imageId = h1.getAttribute('data-image-id');
